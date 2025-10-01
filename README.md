@@ -36,7 +36,7 @@
 ---
 
 ## **2. 팀원 소개**
-| <img width="348" height="373" alt="Image" src="![Image](https://github.com/user-attachments/assets/e5ed992b-891d-4763-8339-85117cc62ebd)" /> | <img width="228" height="228" alt="Image" src="https://github.com/user-attachments/assets/6dc10dc4-fd4e-4e7b-9b7f-d91b70599bf5" /> | <img width="80" height="100" alt="image" src="https://github.com/user-attachments/assets/c33252c7-3bf6-43cf-beaa-a9e2d9bd090b" > | <img width="80" height="100" alt="image" src="https://github.com/user-attachments/assets/0d5909f0-fc73-4ab9-be09-4d48e3e71083" > | <img width="80" height="100" alt="image" src="https://github.com/user-attachments/assets/c7f66b7c-ab84-41fa-8fba-b49dba28b677" > |
+| <img width="348" height="373" alt="Image" src="https://github.com/user-attachments/assets/e5ed992b-891d-4763-8339-85117cc62ebd" /> | <img width="228" height="228" alt="Image" src="https://github.com/user-attachments/assets/6dc10dc4-fd4e-4e7b-9b7f-d91b70599bf5" /> | <img width="80" height="100" alt="image" src="https://github.com/user-attachments/assets/c33252c7-3bf6-43cf-beaa-a9e2d9bd090b" > | <img width="80" height="100" alt="image" src="https://github.com/user-attachments/assets/0d5909f0-fc73-4ab9-be09-4d48e3e71083" > | <img width="80" height="100" alt="image" src="https://github.com/user-attachments/assets/c7f66b7c-ab84-41fa-8fba-b49dba28b677" > |
 |:---:|:---:|:---:|:---:|:---:|
 | **이지해** | **김다나** | **최지수** | **이철수** | **김멘토** |
 | • 개발총괄 <br> • UI/UX 기획 | • 백엔드 <br> • 프론트엔드 | • API 개발 <br> • DB 서버 구축 |• 데이터 분석 <br> • 전처리 | • 프로젝트 멘토 <br> • 기술 자문 |
