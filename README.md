@@ -3,7 +3,6 @@
 **1-1. 프로젝트 소개**
 - 프로젝트 명 : 건물 균열 탐지 수직 자율주행 로봇
 - 프로젝트 정의 : 고층 외벽의 균열 탐지 수직 자율주행 로봇
-  <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/b25d0039-dfc8-4a6f-85c0-567a92e4039f" /></br>
 
 **1-2. 개발 배경 및 필요성**
 - 작업자의 고소작업 위험성과 접근성 한계로 외벽 점검의 자동화 기술 수요 증가
@@ -36,7 +35,7 @@
 
 ---
 
-## **💡2. 팀원 소개**
+## **2. 팀원 소개**
 | <img width="80" height="100" src="https://github.com/user-attachments/assets/ab73bb1c-c1d4-464d-8ad3-635b45d5a8ae" > | <img width="80" height="100" alt="image" src="https://github.com/user-attachments/assets/c7f66b7c-ab84-41fa-8fba-b49dba28b677" > | <img width="80" height="100" alt="image" src="https://github.com/user-attachments/assets/c33252c7-3bf6-43cf-beaa-a9e2d9bd090b" > | <img width="80" height="100" alt="image" src="https://github.com/user-attachments/assets/0d5909f0-fc73-4ab9-be09-4d48e3e71083" > | <img width="80" height="100" alt="image" src="https://github.com/user-attachments/assets/c7f66b7c-ab84-41fa-8fba-b49dba28b677" > |
 |:---:|:---:|:---:|:---:|:---:|
 | **홍길동** | **한이음** | **최지수** | **이철수** | **김멘토** |
@@ -45,7 +44,7 @@
 
 
 ---
-## **💡3. 시스템 구성도**
+## **3. 시스템 구성도**
 > **(참고)** S/W구성도, H/W구성도, 서비스 흐름도 등을 작성합니다. 시스템의 동작 과정 등을 추가할 수도 있습니다.
 - 서비스 구성도
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/28fc8453-d1a0-4184-8fd0-130d93d18545" />
@@ -56,20 +55,12 @@
 
 
 ---
-## **💡4. 작품 소개영상**
-> **참고**: 썸네일과 유튜브 영상을 등록하는 방법입니다.
-```Python
-아래와 같이 작성하면, 썸네일과 링크등록을 할 수 있습니다.
-[![영상 제목](유튜브 썸네일 URL)](유튜브 영상 URL)
-
-작성 예시 : 저는 다음과 같이 작성하니, 아래와 같이 링크가 연결된 썸네일 이미지가 등록되었네요! 
-[![한이음 드림업 프로젝트 소개](https://github.com/user-attachments/assets/16435f88-e7d3-4e45-a128-3d32648d2d84)](https://youtu.be/YcD3Lbn2FRI?si=isERqIAT9Aqvdqwp)
-```
+## **4. 작품 소개영상**
 [![한이음 드림업 프로젝트 소개](https://img.youtube.com/vi/gbGASSssgFE/maxresdefault.jpg)](https://youtu.be/gbGASSssgFE)
 
 
 ---
-## **💡5. 핵심 소스코드**
+## **5. 핵심 소스코드**
 - 소스코드 설명 : API를 활용해서 자동 배포를 생성하는 메서드입니다.
 
 ```Java
