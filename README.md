@@ -55,12 +55,9 @@
 
 
 - 하드웨어 구성도
+<img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/30f4d73b-b8d4-4a60-986a-61505a201d11" />
 
-
-
-
-- 엔티티 관계도
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/76e3347b-6d94-491e-8aeb-a7b4601c54d5" />
+<img width="500" height="400" alt="Image" src="https://github.com/user-attachments/assets/815ae5bd-3623-4f9d-bc91-884a647e0086" />
 
 
 ---
