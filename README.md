@@ -69,7 +69,7 @@
 ## **5. 핵심 소스코드**
 - 소스코드 설명 : API를 활용해서 자동 배포를 생성하는 메서드입니다.
 
-```Java
+```python
     private static void start_deployment(JsonObject jsonObject) {
         String user = jsonObject.get("user").getAsJsonObject().get("login").getAsString();
         Map<String, String> map = new HashMap<>();
