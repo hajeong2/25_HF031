@@ -46,7 +46,7 @@
 ---
 ## **3. 시스템 구성도**
 > **(참고)** S/W구성도, H/W구성도, 서비스 흐름도 등을 작성합니다. 시스템의 동작 과정 등을 추가할 수도 있습니다.
-- 서비스 흐름도
+- 서비스 흐름도 (*DB 추가 예정)
 <img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/bd6d5aa0-424b-4c5d-a3d3-82fafd0fdde8" />
 
 
