@@ -67,30 +67,64 @@
 
 ---
 ## **5. 핵심 소스코드**
-- 소스코드 설명 : API를 활용해서 자동 배포를 생성하는 메서드입니다.
+- 바퀴 회전 감지로 이동거리 계산
 
-```python
-    private static void start_deployment(JsonObject jsonObject) {
-        String user = jsonObject.get("user").getAsJsonObject().get("login").getAsString();
-        Map<String, String> map = new HashMap<>();
-        map.put("environment", "QA");
-        map.put("deploy_user", user);
-        Gson gson = new Gson();
-        String payload = gson.toJson(map);
+```C++
+    inline void updateGateOne(Gate& g, int pin){
+  uint32_t nowMs = millis();
+  uint32_t nowUs = micros();
 
-        try {
-            GitHub gitHub = GitHubBuilder.fromEnvironment().build();
-            GHRepository repository = gitHub.getRepository(
-                    jsonObject.get("head").getAsJsonObject()
-                            .get("repo").getAsJsonObject()
-                            .get("full_name").getAsString());
-            GHDeployment deployment =
-                    new GHDeploymentBuilder(
-                            repository,
-                            jsonObject.get("head").getAsJsonObject().get("sha").getAsString()
-                    ).description("Auto Deploy after merge").payload(payload).autoMerge(false).create();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+  if (!g.warmed){
+    if (g.warmStartMs==0) g.warmStartMs = nowMs;
+    if (nowMs - g.warmStartMs >= WARMUP_MS){
+      g.warmed = true;
+      g.lastLevel = digitalRead(pin);
+      if (g.lastLevel==HIGH) g.highStart=nowUs; else g.lowStart=nowUs;
+    } else {
+      return;
     }
+  }
+
+  int lvl = digitalRead(pin);
+
+  if (lvl==HIGH){
+    if (g.lastLevel==LOW){ g.highStart=nowUs; g.lowStart=0; }
+    else if (!g.armed && g.highStart && (nowUs - g.highStart)>=HIGH_MIN_US){
+      g.armed = true;
+    }
+  } else {
+    if (g.lastLevel==HIGH){ g.lowStart = g.armed ? nowUs : 0; }
+    else if (g.armed && g.lowStart && (nowUs - g.lowStart)>=LOW_MIN_US){
+      g.ticksTot++; g.ticksAcc++;
+      g.armed = false; g.lowStart=0;
+    }
+  }
+  g.lastLevel = lvl;
+}
+```
+
+- IMU + 엔코더 융합, 정확한 방향 추정
+
+```C++
+   // 바이어스 제거 (yaw만 쓸거라 gz만 사용)
+gz -= bgz;
+// 움직임 판단(간단: 자이로)
+bool moving = (fabsf(gz) > ZUPT_GYRO_THR);
+// yaw 적분(+데드밴드/스케일)
+float gz_dps = gz * RAD_TO_DEG;
+if (fabsf(gz_dps) < GZ_DEADBAND_DPS) gz = 0.0f;
+yaw_imu = wrapPI(yaw_imu + (YAW_SCALE * gz) * dt);
+
+// 엔코더 기반 이동/회전
+float ds_l = dL * METERS_PER_TICK;
+float ds_r = dR * METERS_PER_TICK;
+float ds_c = 0.5f * (ds_l + ds_r);
+float dtheta_enc = (ds_r - ds_l) / WHEEL_BASE_M;
+yaw_enc = wrapPI(yaw_enc + dtheta_enc);
+
+// 퓨전 yaw: 자이로 예측 + 엔코더 느린 보정
+yaw_f = wrapPI(yaw_f + (YAW_SCALE * gz) * dt);
+float err = wrapPI(yaw_enc - yaw_f);
+float Kc  = ((dL+dR)>0 || moving) ? KC_MOVE : KC_STOP;
+yaw_f = wrapPI(yaw_f + Kc * err);
 ```
