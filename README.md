@@ -51,13 +51,13 @@
 
 
 - 소프트웨어 구성도
-<img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/4620c0b4-4e30-4369-86ed-55287085fb6d" />
+<img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/b42bc48d-2258-45de-8395-7eadc443c3fb" />
 
 
 - 하드웨어 구성도
-<img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/30f4d73b-b8d4-4a60-986a-61505a201d11" />
+<img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/93d4adba-0009-4b2d-bfa4-aa1c20da22b1" />
 
-<img width="500" height="400" alt="Image" src="https://github.com/user-attachments/assets/815ae5bd-3623-4f9d-bc91-884a647e0086" />
+<img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/2dccd1b3-8f3f-4254-b5f1-645bb89fcfa0" />
 
 
 ---
