@@ -39,7 +39,7 @@
 | <img width="100" height="120" alt="Image" src="https://github.com/user-attachments/assets/e5ed992b-891d-4763-8339-85117cc62ebd" /> | <img width="80" height="100" alt="Image" src="https://github.com/user-attachments/assets/6dc10dc4-fd4e-4e7b-9b7f-d91b70599bf5" /> | <img width="100" height="110" alt="Image" src="https://github.com/user-attachments/assets/2efa44a6-043f-44b4-a4ab-5ebec4665f8e" /> | <img width="80" height="100" alt="image" src="https://github.com/user-attachments/assets/0d5909f0-fc73-4ab9-be09-4d48e3e71083" > | <img width="80" height="100" alt="image" src="https://github.com/user-attachments/assets/c7f66b7c-ab84-41fa-8fba-b49dba28b677" > |
 |:---:|:---:|:---:|:---:|:---:|
 | **이지해** | **김다나** | **김하정** | **박유라** | **곽문기** |
-| • 프론트엔드 <br> • 관제 | • 하드웨어 <br> • 임베디드 제어  | • AI 분석 <br> • 시스템 통합 |• 데이터 베이스 <br> • ... | • 프로젝트 멘토 <br> • 기술 자문 |
+| • 프론트엔드 <br> • 관제 | • 하드웨어 <br> • 임베디드 제어  | • AI 분석 <br> • 시스템 통합 |• 데이터 베이스 | • 프로젝트 멘토 <br> • 기술 자문 |
 
 
 
