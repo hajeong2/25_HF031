@@ -1,8 +1,8 @@
 ## **1. 프로젝트 개요**
 
 **1-1. 프로젝트 소개**
-- 프로젝트 명 : 건물 균열 탐지 수직 자율주행 로봇
-- 프로젝트 정의 : 고층 외벽의 균열 탐지 수직 자율주행 로봇
+- 프로젝트 명 : 건물 균열 탐지 수직 주행 로봇
+- 프로젝트 정의 : 고층 외벽의 균열 탐지 수직 주행 로봇
 
 **1-2. 개발 배경 및 필요성**
 - 작업자의 고소작업 위험성과 접근성 한계로 외벽 점검의 자동화 기술 수요 증가
@@ -11,12 +11,12 @@
 - 사생활 침해 문제 해결
 
 **1-3. 프로젝트 특장점**
-- 드론/인력으로 구현하기 어려운 수직 자율주행 방식의 고층·협소 외벽 자동 점검
+- 드론/인력으로 구현하기 어려운 수직 주행 방식의 고층·협소 외벽 자동 점검
 - 재질에 구애받지 않는 진공 흡착 주행 방식으로 안정적이고 일관된 외벽 주행 가능
 - 외벽 손상을 실시간 분석·판단하는 AI 내장형 진단 시스템
 
 **1-4. 주요 기능**
-- 수직 자율주행 기능을 통해 고층 및 협소 공간 외벽을 이동하며 점검수행
+- 수직 주행 기능을 통해 고층 및 협소 공간 외벽을 이동하며 점검수행
 - 진공 흡착 방식으로 다양한 외장재에서도 강한 밀착력과 안정적인 벽면 주행 가능
 - AI 기반 영상 분석으로 외벽의 균열 감지
 
@@ -36,17 +36,16 @@
 ---
 
 ## **2. 팀원 소개**
-| <img width="100" height="120" alt="Image" src="https://github.com/user-attachments/assets/e5ed992b-891d-4763-8339-85117cc62ebd" /> | <img width="80" height="100" alt="Image" src="https://github.com/user-attachments/assets/6dc10dc4-fd4e-4e7b-9b7f-d91b70599bf5" /> | <img width="100" height="110" alt="Image" src="https://github.com/user-attachments/assets/2efa44a6-043f-44b4-a4ab-5ebec4665f8e" /> | <img width="80" height="100" alt="image" src="https://github.com/user-attachments/assets/0d5909f0-fc73-4ab9-be09-4d48e3e71083" > | <img width="80" height="100" alt="image" src="https://github.com/user-attachments/assets/c7f66b7c-ab84-41fa-8fba-b49dba28b677" > |
-|:---:|:---:|:---:|:---:|:---:|
-| **이지해** | **김다나** | **김하정** | **박유라** | **곽문기** |
-| • 프론트엔드 <br> • 관제 | • 하드웨어 <br> • 임베디드 제어  | • AI 분석 <br> • 시스템 통합 |• 데이터 베이스 | • 프로젝트 멘토 <br> • 기술 자문 |
+| <img width="80" height="100" alt="Image" src="https://github.com/user-attachments/assets/6dc10dc4-fd4e-4e7b-9b7f-d91b70599bf5" /> | <img width="100" height="110" alt="Image" src="https://github.com/user-attachments/assets/2efa44a6-043f-44b4-a4ab-5ebec4665f8e" /> | <img width="100" height="120" alt="Image" src="https://github.com/user-attachments/assets/e5ed992b-891d-4763-8339-85117cc62ebd" /> | <img width="80" height="100" alt="image" src="https://github.com/user-attachments/assets/c7f66b7c-ab84-41fa-8fba-b49dba28b677" > |
+|:---:|:---:|:---:|:---:|
+| **김다나** | **김하정** | **이지해** | **곽문기** |
+| • 하드웨어 <br> • DB  | • AI 분석 <br> • 시스템 통합 |• 프론트엔드 <br> • 관제 | • 프로젝트 멘토 <br> • 기술 자문 |
 
 
 
 ---
 ## **3. 시스템 구성도**
-> **(참고)** S/W구성도, H/W구성도, 서비스 흐름도 등을 작성합니다. 시스템의 동작 과정 등을 추가할 수도 있습니다.
-- 서비스 흐름도 (*DB 추가 예정)
+- 서비스 흐름도
 <img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/bd6d5aa0-424b-4c5d-a3d3-82fafd0fdde8" />
 
 
